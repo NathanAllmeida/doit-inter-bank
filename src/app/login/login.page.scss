@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'doit';
+    src: url('../../assets/fonts/earthorbiterbold.ttf') format('truetype');
+    font-weight: 200
+}
+
+ion-content{
+    .d-flex{
+        display: flex;
+    }
+    .header{
+        width: 100%;
+        height: 40vh;
+        background-color: #f16704;
+        color: white;
+        font-family: doit;
+        ion-row{
+            height: 100%;
+        }
+    }
+    .content{
+        width: 100%;
+        height: 60vh;
+        background-color: #ffffff;
+        .card{
+            margin:0;            
+            background-color: #f5f6fa;
+        }
+        .card-login{
+            margin-top:-40px;
+            .img-user{
+                width: 38px;
+                height: 38px;
+                border-radius: 100%;
+                background-color: #e7e7f2;
+            }
+            .btn-alter-login{
+                --background: #f5f6fa;
+                border-radius: 5px;
+                border:2px solid #e7e8ec;
+                color: #43434d;
+                font-size:12px;
+                font-weight: 700;
+            }
+            .btn-signin{
+                --background: #f16704;
+            }
+           
+        }
+        .card-iSafe{
+            ion-icon.isafe-generate{
+                background-color: white;
+                color:#f16704;
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+                border-radius: 100%;
+            }
+        }
+        .card-interPag{
+            .bold-interpag{
+                font-weight: 1000;
+                color:#484c57;
+            }
+            ion-icon{
+                background-color: white;
+                width: 20px;
+                height: 20px;
+                padding: 5px;
+                border-radius: 100%;
+            }
+        }
+    }
+}

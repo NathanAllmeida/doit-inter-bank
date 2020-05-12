@@ -1,5 +1,7 @@
 {
   "name": "doitBank",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
